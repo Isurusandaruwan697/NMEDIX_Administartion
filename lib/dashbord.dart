@@ -11,6 +11,8 @@ class Dashbord extends StatefulWidget {
 class _DashbordState extends State<Dashbord> {
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
     return Scaffold(
       body: Column(
         children: [
@@ -27,16 +29,15 @@ class _DashbordState extends State<Dashbord> {
               color: Color.fromRGBO(255, 255, 255, 1),
             ),
             child: SizedBox(
-              width: 782,
-              height: 59,
+              width: width*0.1,
+              height: height*0.1,
               child: Stack(
                 children: [
                   const Padding(
                     padding: EdgeInsets.all(9.0),
                     child: Positioned(
                       child: Image(
-                        image: NetworkImage(
-                            "https://i.ibb.co/3FLC7hN/Asset-8-4x-1.png"),
+                        image: AssetImage("assets/logocolor.png"),
                         alignment: Alignment.centerLeft,
                       ),
                     ),
@@ -64,10 +65,10 @@ class _DashbordState extends State<Dashbord> {
                       ),
                     ),
                   ),
-                  const Positioned(
-                    top: 38,
-                    left: 1300,
-                    child: Text(
+                  Positioned(
+                    top: height*0.06,
+                    left: width*0.85,
+                    child: const Text(
                       'Dr.Chandana Rodrigo',
                       textAlign: TextAlign.center,
                       style: TextStyle(
@@ -117,7 +118,7 @@ class _DashbordState extends State<Dashbord> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Image(
-                                image: AssetImage('assets/image1.png'),
+                                image: AssetImage('mr.png'),
                                 height: 50.0,
                               ),
                               Text(
@@ -186,7 +187,7 @@ class _DashbordState extends State<Dashbord> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Image(
-                                image: AssetImage('assets/image1.png'),
+                                image: AssetImage('ear.png'),
                                 height: 50.0,
                               ),
                               Text(
@@ -256,7 +257,7 @@ class _DashbordState extends State<Dashbord> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Image(
-                                image: AssetImage('assets/image1.png'),
+                                image: AssetImage('fc.png'),
                                 height: 50.0,
                               ),
                               Text(
@@ -325,9 +326,9 @@ class _DashbordState extends State<Dashbord> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Image(
-                                image: AssetImage('assets/image1.png'),
-                                width: 30,
-                                height: 30.0,
+                                image: AssetImage('a.png'),
+                                width: 50,
+                                height: 50.0,
                               ),
                               Text(
                                 '10',
