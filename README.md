@@ -22,3 +22,9 @@ The Admin login window contains fields where a username and password can be ente
 
 The article dashboard interface provides access to various informative articles covering different topics. It includes sections such as N Medix launch, health tips, COVID-19, and mental health. The N Medix launch section features articles related to the recent launch of N Medix, which may include information about its features, services, or updates. 
 
+> Medical appointment
+<img src="assets/Medicalappointment.png" height="500" width="1200" >
+
+The appointment interface includes fields for the following information: name, index number, perception number, and date-time section. In the name field, the user can enter their full name. The index number field allows the user to input a unique identifier associated with their appointment. The perception number field is provided for the user to enter any specific identification or reference number related to their appointment.
+
+
