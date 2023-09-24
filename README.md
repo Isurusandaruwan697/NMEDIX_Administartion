@@ -20,5 +20,5 @@ The Admin login window contains fields where a username and password can be ente
 > Article dashboard
 <img src="assets/Medical.png" height="500" width="1200" >
 
->The article dashboard interface provides access to various informative articles covering different topics. It includes sections such as N Medix launch, health tips, COVID-19, and mental health. The N Medix launch section features articles related to the recent launch of N Medix, which may include information about its features, services, or updates. 
+The article dashboard interface provides access to various informative articles covering different topics. It includes sections such as N Medix launch, health tips, COVID-19, and mental health. The N Medix launch section features articles related to the recent launch of N Medix, which may include information about its features, services, or updates. 
 
