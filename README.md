@@ -15,6 +15,6 @@ In light of all the issues, user demands, and expectations, we advise the medica
 The user login window contains fields where a username and password can be entered. Users fill out the username box with their unique identifiers. The password field is where users can enter their private account password.
 
 ##Article dashboard
-<img src="assets/medical.png" height="400" width="1200" >
+<img src="assets/Medical.png" height="400" width="1200" >
 >The article dashboard interface provides access to various informative articles covering different topics. It includes sections such as N Medix launch, health tips, COVID-19, and mental health. The N Medix launch section features articles related to the recent launch of N Medix, which may include information about its features, services, or updates. 
 
